@@ -11,7 +11,9 @@ We have used 2 data sources for the project - [Statsbomb](https://github.com/sta
 ## 3. Graph Neural Network
 Using Graph Neural Networks in PyTorch Geometric, the outcome of set pieces (corner kicks, for example) is predicted  with players as nodes and connections between players as edges for the network. The input dataset consists of frames that provide the location of players (from Statsbomb), player and team attributes (from EA FC 2024), and the outcome of the corner, whether it resulted in a shot or not. For the GNN model, we have used PyTorch geometric library to create a Graph Convolutional Network with 3 layers, and a linear classifier layer, with ReLU as the activation function, and cross entropy loss as the objective function to minimize.  The model is trained for 1000 epochs, and we reached an accuracy of 80% on the validation set.
 
-![GNN Modeling](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/3c2f0c82-2bf1-45bf-af1e-d86db5c8e5d4)
+![GNN Components](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/62009f46-8b8f-401a-9bac-2383ed96230f)
+
+![GNN Modeling Process](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/3c2f0c82-2bf1-45bf-af1e-d86db5c8e5d4)
 
 
 **References:**
