@@ -13,8 +13,7 @@ Using Graph Neural Networks in PyTorch Geometric, the outcome of set pieces (cor
 
 ![GNN Components](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/62009f46-8b8f-401a-9bac-2383ed96230f)
 
-![GNN Modeling Process](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/3c2f0c82-2bf1-45bf-af1e-d86db5c8e5d4)
-
+![GNN Modeling Process](https://github.com/reojackson31/soccer-corner-kick-studio/assets/148725712/6b0a9a93-c339-4936-b0cb-fb84559a83c0)
 
 **References:**
 
