@@ -64,7 +64,7 @@ def create_plot():
     p.xgrid.visible = False
     p.ygrid.visible = False
 
-    image_url = ['https://i.ibb.co/gPtpTvf/football-pitch-horizontal.png']
+    image_url = ['https://i.ibb.co/f8nqrwX/football-pitch-horizontal.png']
     p.image_url(url=image_url, x=0, y=0, w=124, h=84, anchor="bottom_left")
 
     attack_players = ColumnDataSource(data={'x': teammate_locs['x'].tolist(), 'y': teammate_locs['y'].tolist()})
@@ -90,7 +90,7 @@ image_base64 = get_image_base64(image_path)
 html_str = f"""
 <div style="text-align: center;">
     <img src='data:image/png;base64,{image_base64}' width='300'/>
-    <h1>Corners Tactic Board</h1>
+    <h1>Corner Kick Studio</h1>
 </div>
 """
 # Display the HTML in Streamlit
